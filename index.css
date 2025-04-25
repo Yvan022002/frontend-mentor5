@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(226, 43%, 10%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 12px;
+    margin: 0;
+}
+
+.body{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
+}
+.report{
+    height: 350px;
+    border-radius: 10px;
+    background-color: hsl(235, 46%, 20%);
+}
+.report .up{
+    background-color: hsl(246, 80%, 60%);
+    color: white;
+    padding: 10% 0% 4% 15%;
+    border-radius: 10px;
+    height: 65%;
+}
+.report .up img{
+    border-radius: 50%;
+    width: 70px;
+    border: 3px solid white;
+}
+.report .up .name{
+    margin-top: 15%
+}
+.name p{
+    opacity: 0.5;
+}
+.name h2{
+    margin: 0;
+    font-weight: lighter;
+}
+.report .down p{
+    padding: 7% 0% 0% 15%;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.report .down p:hover{
+    opacity: 1;
+}
+.todos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.todos .todo-item{
+    border-radius: 12px;
+    width: auto;
+    height: 140px;
+    background-color: hsl(246, 80%, 60%);
+    position: relative;
+    z-index: 1;
+    
+}
+.todo-item img{
+    width: 40px;
+    opacity: 0.5;
+   
+}
+.todo-item .img{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.todo-item-display{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color:hsl(235, 46%, 20%);
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    
+}
+.inner{
+    padding: 8%;
+    color: white;
+}
+.flex{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+.flex img{
+    width: 15px;
+    height: 5px;
+    cursor: pointer;
+}
+.inner h2{
+   font-size: 40px;
+   margin: 14% 0 7% 0;
+   font-weight: lighter;
+}
