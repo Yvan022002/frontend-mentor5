@@ -72,9 +72,15 @@ p{
     z-index: 1;
     
 }
+.todo-item:has(#Work){background-color: hsl(15, 100%, 70%);}
+.todo-item:has(#Play){background-color: hsl(195, 74%, 62%);}
+.todo-item:has(#Study){background-color: hsl(348, 100%, 68%);}
+.todo-item:has(#Exercise){background-color: hsl(145, 58%, 55%);}
+.todo-item:has(#Social){background-color: hsl(264, 64%, 52%);}
+.todo-item:has(#Self\ Care){background-color: hsl(43, 84%, 65%);}
+
 .todo-item img{
     width: 40px;
-    opacity: 0.5;
    
 }
 .todo-item .img{
