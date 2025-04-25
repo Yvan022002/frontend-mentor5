@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Time tracking dashboard</title>
 <link rel="stylesheet" href="index.css">
-<script src="index.js"></script>
+<script src="index.js" defer></script>
 
 </head>
 <body>
@@ -23,7 +23,7 @@
     </div>
     <div class="down">
       <p>Daily</p>
-      <p>Weakly</p>
+      <p id="week">Weekly</p>
       <p>Monthly</p>
     </div>
   </div>
@@ -32,13 +32,13 @@
       <div class="img"><img src="images/icon-work.svg" alt=""></div>
       
       <div class="todo-item-display">
-        <div class="inner">
+        <div class="inner" id="Work">
           <div class="flex">
-            <p>work</p>
+            <p>Work</p>
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <h2>32hrs</h2>
-          <p>Last Week - 36hrs</p>
+          <p>Last Week-36hrs</p>
         </div>
         
       </div>
@@ -47,13 +47,13 @@
       <div class="img"><img src="images/icon-play.svg" alt=""></div>
       
       <div class="todo-item-display">
-        <div class="inner">
+        <div class="inner" id="Play">
           <div class="flex">
             <p>Play</p>
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <h2>10hrs</h2>
-          <p>Last Week - 8hrs</p>
+          <p>Last Week-8hrs</p>
         </div>
       </div>
     </div>
@@ -61,13 +61,13 @@
       <div class="img"><img src="images/icon-study.svg" alt=""></div>
       
       <div class="todo-item-display">
-        <div class="inner">
+        <div class="inner" id="Study">
           <div class="flex">
             <p>Study</p>
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <h2>4hrs</h2>
-          <p>Last Week - 7hrs</p>
+          <p>Last week-7hrs</p>
         </div>
       </div>
     </div>
@@ -75,13 +75,13 @@
       <div class="img"><img src="images/icon-exercise.svg" alt=""></div>
       
       <div class="todo-item-display">
-        <div class="inner">
+        <div class="inner" id="Exercise">
           <div class="flex">
-            <p>Excercise</p>
+            <p>Exercise</p>
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <h2>4hrs</h2>
-          <p>Last Week - 5hrs</p>
+          <p>Last Week-5hrs</p>
         </div>
       </div>
     </div>
@@ -89,13 +89,13 @@
       <div class="img"><img src="images/icon-social.svg" alt=""></div>
       
       <div class="todo-item-display">
-        <div class="inner">
+        <div class="inner" id="Social">
           <div class="flex">
             <p>Social</p>
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <h2>5hrs</h2>
-          <p>Last Week - 10hrs</p>
+          <p>Last Week-10hrs</p>
         </div>
       </div>
     </div>
@@ -103,13 +103,13 @@
       <div class="img"><img src="images/icon-self-care.svg" alt=""></div>
       
       <div class="todo-item-display">
-        <div class="inner">
+        <div class="inner" id="Self Care">
           <div class="flex">
             <p>Self Care</p>
             <img src="images/icon-ellipsis.svg" alt="">
           </div>
           <h2>2hrs</h2>
-          <p>Last Week - 2hrs</p>
+          <p>Last Week-2hrs</p>
         </div>
       </div>
     </div>

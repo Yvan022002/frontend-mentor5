@@ -52,6 +52,9 @@ p{
     opacity: 0.5;
     cursor: pointer;
 }
+#week{
+    opacity: 1;
+}
 .report .down p:hover{
     opacity: 1;
 }
