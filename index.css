@@ -80,6 +80,7 @@ p{
     justify-content: end;
 }
 .todo-item-display{
+    cursor: pointer;
     border-radius: 10px;
     width: 100%;
     height: 100%;
